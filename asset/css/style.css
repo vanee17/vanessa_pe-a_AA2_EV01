@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color1: #1e2631;
+    --color2: #95bff5;
+    --color3: #f0f8ff ;
+}
+
+.color1{
+    color: var(--color1);
+}
+
+.color2{
+    color:var(--color2);
+}
+
+.color3{
+    color:var(--color3);
+}
+
+.bcolor1{
+    background-color: var(--color1);
+}
+
+.bcolor2{
+    background-color: var(--color2);
+}
+.bcolor2:hover{
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+.bcolor3{
+    background-color: var(--color3);
+}
+
+h1{
+    color: #1e2631 !important;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.title{
+    margin-bottom: 60px;
+    color: var(--color3) !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    position: fixed;        /* Hace que el header sea fijo */
+    top: 0;                 /* Lo pega al borde superior */
+    left: 0;                /* Lo alinea al borde izquierdo */
+    width: 100%;            /* Ocupa todo el ancho de la pantalla */
+    align-items: center;
+    background-color: #f0f8ff;
+    padding-left: 10px;
+    box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+    z-index: 999;
+}
+.navbar{
+    background-color: var(--color1);
+    margin-left: -1px;
+    width: 200px;
+    margin-top: 55px;
+    position: fixed;        /* Hace que el header sea fijo */
+    top: 0;                 /* Lo pega al borde superior */
+    left: 0; 
+}
+
+.list{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.item_nav{
+    color:	var(--color3);
+    font-family: "National Park", sans-serif;
+    font-size: 15px;
+}
+.item_nav:hover{
+    color:		var(--color2);
+}
+
+.p_grid{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.card{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: 	var(--color3);
+}
+
+.card:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.img_pc{
+    width: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.card-text{
+    font-family: "National Park", sans-serif;
+    font-size: 15px;
+    color: var(--color1);
+}
+
+.foot{
+    position: fixed;
+    bottom: 1px;
+    display: flex;
+    background-color: 	var(--color1);
+    width: 100%;
+    justify-content: center;
+    color: var(--color3);
+    height: 40px;
+}
+
+.button{
+    color: var(--color3);
+    border: 1px solid var(--color3);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .2s;
+    width: 100%;
+    margin-right: 30px;
+    text-align: center;
+    padding: 8px;
+}
+
+.button:hover{
+    border: 1px solid var(--color2);
+    color: var(--color2);
+}
+
+.div_button{
+    margin-left: 2rem;
+}
+
+.opt_form{
+    color:	var(--color3);
+    font-family: "National Park", sans-serif;
+}
+
+.form{
+    color: var(--color3);
+    margin: auto;
+    background-color: #42546d;
+    padding: 20px;
+    border-radius: 6px;
+}
+.form_content{
+    background-color: #42546d;
+    padding: 20px;
+}
+
+/* login */
+.content_login{
+    min-height: 100vh;
+    padding-top: 15px;
+    background: rgb(30,38,49)!important;
+    background: linear-gradient(127deg, rgba(30,38,49,1) 0%, rgba(39,50,65,1) 29%, rgba(44,56,73,1) 50%, rgba(49,63,82,1) 56%, rgba(59,76,99,1) 63%, rgba(67,86,112,1) 68%, rgba(89,115,148,1) 77%, rgba(106,136,175,1) 83%, rgba(128,164,210,1) 90%, rgba(149,191,245,1) 95%, rgba(240,248,255,1) 100%)!important ; 
+}
+
+.login{
+    color: var(--color3);
+    margin: auto;
+    background-color: #ffffff1f;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.box_eye{
+    display: flex;
+    position: relative !important;
+}
+
+.change_password{
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    cursor: pointer;
+    color: #444f5e;
+}
+
+.links{
+    color: var(--color2);
+}
+
+/* validation error styles */
+.input-error{
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 .2rem rgba(220,53,69,.25) !important;
+}
+.error-text{
+    color: #dc3545;
+    font-size: 0.85rem;
+    margin-top: 6px;
+}
+
+.mb-3 { 
+    position: relative; 
+}
+
+.logout{
+    position: absolute;
+    bottom: 110px;
+}

@@ -1,0 +1,103 @@
+=============================================================
+DOCUMENTACIÓN DEL SISTEMA DE INVENTARIO (INVENTA_SYSTEM)
+=============================================================
+
+1. DESCRIPCIÓN DEL SISTEMA
+-------------------------
+El sistema INVENTA_SYSTEM es una aplicación web desarrollada en PHP que proporciona una plataforma para la gestión de inventario. El sistema implementa funcionalidades de autenticación de usuarios (registro, inicio de sesión y cierre de sesión) y un módulo completo de gestión de proveedores.
+
+2. MÓDULOS DEL SISTEMA
+---------------------
+
+2.1. Módulo de Autenticación
+    - Registro de usuarios nuevos
+    - Inicio de sesión con validación de credenciales
+    - Cierre de sesión seguro
+    - Verificación de correos electrónicos duplicados
+    - Encriptación de contraseñas con password_hash
+
+2.2. Módulo de Proveedores
+    - Listado de proveedores con tabla dinámica
+    - Funciones CRUD completas (Crear, Leer, Actualizar, Eliminar)
+    - Gestión de información empresarial (NIT, dirección, teléfono)
+    - Gestión de contactos directos
+    - Interfaz interactiva con botones de edición y eliminación
+
+3. REQUISITOS DEL SISTEMA
+------------------------
+- PHP 7.4 o superior
+- MySQL 5.7 o superior
+- Servidor web (Apache/Nginx)
+- Laragon o XAMPP como entorno de desarrollo
+
+4. PASOS PARA DESPLEGAR EL PROYECTO
+----------------------------------
+
+4.1. Instalación del Entorno de Desarrollo
+
+    OPCIÓN A - Usando Laragon:
+    1. Descargar Laragon de https://laragon.org/download/
+    2. Ejecutar el instalador y seguir los pasos
+    3. Instalar con la configuración predeterminada
+    4. Verificar que Apache y MySQL estén funcionando (iconos en verde)
+
+    OPCIÓN B - Usando XAMPP:
+    1. Descargar XAMPP de https://www.apachefriends.org/
+    2. Ejecutar el instalador
+    3. Seleccionar como mínimo los componentes Apache y MySQL
+    4. Completar la instalación y iniciar los servicios
+
+4.2. Configuración del Proyecto
+
+    Si se tiene el archivo comprimido:
+    1. Descomprimir el archivo del proyecto
+    2. Copiar la carpeta 'vanessa_peña_AA2_EV01' en:
+       - Laragon: C:\laragon\www\
+       - XAMPP: C:\xampp\htdocs\
+
+    Si se clona desde Git:
+    1. Abrir terminal en la carpeta www o htdocs
+    2. Ejecutar: git clone [URL_DEL_REPOSITORIO]
+
+4.3. Configuración de la Base de Datos
+    1. Abrir el administrador de MySQL (HeidiSQL en Laragon o phpMyAdmin en XAMPP)
+    2. Crear una nueva base de datos llamada 'inventa_system'
+    3. Importar el archivo SQL de la estructura de la base de datos (si está disponible)
+    4. Verificar la configuración en config/db.php:
+       - Host: localhost
+       - Usuario: root
+       - Contraseña: (en blanco por defecto)
+       - Base de datos: inventa_system
+
+4.4. Verificación de la Instalación
+    1. Abrir el navegador
+    2. Acceder a:
+       - Laragon: http://vanessa_peña_AA2_EV01.test
+       - XAMPP: http://localhost/vanessa_peña_AA2_EV01
+    3. Debería aparecer la página de inicio de sesión
+
+5. ESTRUCTURA DEL PROYECTO
+-------------------------
+El proyecto sigue el patrón MVC (Modelo-Vista-Controlador):
+
+/asset             - Recursos estáticos (CSS, JS, imágenes)
+/config            - Configuración de la base de datos
+/controller        - Lógica de control de la aplicación
+/model             - Modelos para interacción con la base de datos
+/view              - Interfaces de usuario
+  /head            - Elementos comunes (header, footer)
+  /home            - Vistas de autenticación y panel de control
+  
+6. CONSIDERACIONES DE SEGURIDAD
+------------------------------
+- Las contraseñas se almacenan encriptadas
+- Implementa sanitización de datos de entrada
+- Utiliza consultas preparadas para prevenir SQL injection
+- Validación de sesiones de usuario
+- Limpieza de cadenas y correos electrónicos
+
+7. SOPORTE Y MANTENIMIENTO
+-------------------------
+Para reportar problemas o solicitar soporte, contactar al equipo de desarrollo.
+
+=============================================================
