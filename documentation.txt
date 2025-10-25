@@ -60,7 +60,7 @@ El sistema INVENTA_SYSTEM es una aplicación web desarrollada en PHP que proporc
     2. Ejecutar: git clone [URL_DEL_REPOSITORIO]
 
 4.3. Configuración de la Base de Datos
-    1. Abrir el administrador de MySQL (HeidiSQL en Laragon o phpMyAdmin en XAMPP)
+    1. Abrir el administrador de MySQL (phpMyAdmin)
     2. Crear una nueva base de datos llamada 'inventa_system'
     3. Importar el archivo SQL de la estructura de la base de datos (si está disponible)
     4. Verificar la configuración en config/db.php:
@@ -72,8 +72,8 @@ El sistema INVENTA_SYSTEM es una aplicación web desarrollada en PHP que proporc
 4.4. Verificación de la Instalación
     1. Abrir el navegador
     2. Acceder a:
-       - Laragon: http://vanessa_peña_AA2_EV01.test
-       - XAMPP: http://localhost/vanessa_peña_AA2_EV01
+       - Laragon: http://localhost/vanessa_peña_AA2_EV01/view/home/panelControl.php
+       - XAMPP: http://localhost/vanessa_peña_AA2_EV01/view/home/panelControl.php
     3. Debería aparecer la página de inicio de sesión
 
 5. ESTRUCTURA DEL PROYECTO
@@ -96,7 +96,12 @@ El proyecto sigue el patrón MVC (Modelo-Vista-Controlador):
 - Validación de sesiones de usuario
 - Limpieza de cadenas y correos electrónicos
 
-7. SOPORTE Y MANTENIMIENTO
+7. URL DE REPOSITORIO
+
+https://github.com/vanee17/vanessa_pe-a_AA2_EV01.git
+-------------------------
+
+8. SOPORTE Y MANTENIMIENTO
 -------------------------
 Para reportar problemas o solicitar soporte, contactar al equipo de desarrollo.
 

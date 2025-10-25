@@ -1,6 +1,6 @@
 <?php
 
-    require_once("c://laragon/www/inventa_system/controller/homeController.php");
+    require_once("c://laragon/www/vanessa_peña_AA2_EV01/controller/homeController.php");
     session_start();
     $obj = new homeController();
     $email = $obj->clearEmail($_POST['email']);

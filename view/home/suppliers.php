@@ -83,5 +83,5 @@ require_once __DIR__ . '/../head/header.php';
     </div>
 </div>
 <?php
-require_once("c://laragon/www/inventa_system/view/head/footer.php");
+require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/footer.php");
 ?>

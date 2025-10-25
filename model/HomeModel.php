@@ -5,7 +5,7 @@ class HomeModel
     private $PDO;
     public function __construct()
     {
-        require_once("c://laragon/www/inventa_system/config/db.php");
+        require_once("c://laragon/www/vanessa_peña_AA2_EV01/config/db.php");
         $pdo = new db();
         $this->PDO = $pdo->connection();
     }

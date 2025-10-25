@@ -1,5 +1,5 @@
 <?php
-    require_once("c://laragon/www/inventa_system/controller/HomeController.php");
+    require_once("c://laragon/www/vanessa_peña_AA2_EV01/controller/HomeController.php");
     $obj = new HomeController();
     $name = $obj->clearString($_POST['name']);
     $document = $_POST["document"];

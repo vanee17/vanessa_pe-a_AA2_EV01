@@ -1,22 +1,22 @@
 <?php
-require_once("c://laragon/www/inventa_system/view/head/head.php");
+require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/head.php");
 ?>
 <?php if (empty($_SESSION['user'])): ?>
     <div class="content_login">
         <div class="div_title text-center">
-            <img src="/inventa_system/asset/img/white-shark.png" alt="logo">
+            <img src="/vanessa_peña_AA2_EV01/asset/img/white-shark.png" alt="logo">
             <h1 class="title">Inventa System</h1>
         </div>
         <div class="div_button text-center">
-            <a href="/inventa_system/view/home/login.php" type="button" class="button">Inicia Sesion</a>
-            <a href="/inventa_system/view/home/signup.php" type="button" class="button">Registrate</a>
+            <a href="/vanessa_peña_AA2_EV01/view/home/login.php" type="button" class="button">Inicia Sesion</a>
+            <a href="/vanessa_peña_AA2_EV01/view/home/signup.php" type="button" class="button">Registrate</a>
         </div>
     </div>
 <?php else: ?>
     <header>
         <div class="logo">
-            <img src="/inventa_system/asset/img/small_shark.png" alt="logo">
-            <h1><a href="/inventa_system/view/home/panelControl.php"><span style="color:#1e2631;">INVENTA SYSTEM</span></a></h1>
+            <img src="/vanessa_peña_AA2_EV01/asset/img/small_shark.png" alt="logo">
+            <h1><a href="/vanessa_peña_AA2_EV01/view/home/panelControl.php"><span style="color:#1e2631;">INVENTA SYSTEM</span></a></h1>
         </div>
     </header>
 
@@ -81,7 +81,7 @@ require_once("c://laragon/www/inventa_system/view/head/head.php");
                             <hr class="dropdown-divider">
                         </li> -->
                         <li>
-                            <a class="dropdown-item" href="/inventa_system/view/home/logout.php">logout</a>
+                            <a class="dropdown-item" href="/vanessa_peña_AA2_EV01/view/home/logout.php">logout</a>
                         </li>
                     </ul>
                 </div>

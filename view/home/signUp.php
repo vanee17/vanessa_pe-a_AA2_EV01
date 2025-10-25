@@ -1,5 +1,5 @@
 <?php
-require_once("c://laragon/www/inventa_system/view/head/head.php");
+require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/head.php");
 if (!empty($_SESSION["user"])) {
     header("Location:suppliers.php");
 }
@@ -7,7 +7,7 @@ if (!empty($_SESSION["user"])) {
 
 <div class="content_login">
     <div class="div_title text-center">
-        <img src="/inventa_system/asset/img/small-white-shark.png" alt="logo">
+        <img src="/vanessa_peña_AA2_EV01/asset/img/small-white-shark.png" alt="logo">
         <h1 class="title">Registrate en Inventa System</h1>
     </div>
     <form id="signupForm" class="col-4 login" autocomplete="off">
@@ -54,5 +54,5 @@ if (!empty($_SESSION["user"])) {
     </div>
 
     <?php
-    require_once("c://laragon/www/inventa_system/view/head/footer.php");
+    require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/footer.php");
     ?>

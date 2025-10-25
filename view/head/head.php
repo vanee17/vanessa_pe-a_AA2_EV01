@@ -12,6 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=National+Park:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/inventa_system/asset/css/style.css">
+    <link rel="stylesheet" href="/vanessa_peña_AA2_EV01/asset/css/style.css">
 </head>
 <body>

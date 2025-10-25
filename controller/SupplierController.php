@@ -7,7 +7,7 @@ class SupplierController
 
     public function __construct()
     {
-        require_once("c://laragon/www/inventa_system/model/SupplierModel.php");
+        require_once("c://laragon/www/vanessa_peña_AA2_EV01/model/SupplierModel.php");
         $this->MODEL = new SupplierModel();
     }
 

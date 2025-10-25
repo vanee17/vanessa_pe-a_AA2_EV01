@@ -7,7 +7,7 @@ class homeController
 
     public function __construct()
     {
-        require_once("c://laragon/www/inventa_system/model/HomeModel.php");
+        require_once("c://laragon/www/vanessa_peña_AA2_EV01/model/HomeModel.php");
         $this->MODEL = new homeModel();
     }
 
