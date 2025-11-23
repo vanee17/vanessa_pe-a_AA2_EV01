@@ -35,7 +35,7 @@ class SupplierController
         $salida = array(
             "draw" => intval($_POST["draw"]),
             "recordsTotal" => $filtered_rows,
-            "recordsFiltered" => count($this->MODEL->get_suppliers()),
+            "recordsFiltered" => count($this->MODEL->getSuppliers()),
             "data" => $datos
         );
 

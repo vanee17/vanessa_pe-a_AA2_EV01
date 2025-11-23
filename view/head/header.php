@@ -46,8 +46,8 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/head.php");
                             <span><i class="bi bi-clipboard-check"></i> Inventario</span>
                         </a>
                         <ul class="collapse list-unstyled ps-4" id="inventarioSub">
-                            <li class="list"><a class="item_nav" href="#">Productos</a></li>
-                            <li class="list"><a class="item_nav" href="/inventa_system/view/home/suppliers.php">Proveedores</a></li>
+                            <li class="list"><a class="item_nav" href="/vanessa_peña_AA2_EV01/view/home/products.php">Productos</a></li>
+                            <li class="list"><a class="item_nav" href="/vanessa_peña_AA2_EV01/view/home/suppliers.php">Proveedores</a></li>
                             <li class="list"><a class="item_nav" href="#">Clientes</a></li>
                         </ul>
                     </li>

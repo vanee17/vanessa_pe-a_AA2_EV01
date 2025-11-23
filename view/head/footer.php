@@ -11,4 +11,5 @@
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="/vanessa_peña_AA2_EV01/asset/js/main.js"></script>
         <script src="/vanessa_peña_AA2_EV01/asset/js/supplier.js"></script>
+        <script src="/vanessa_peña_AA2_EV01/asset/js/product.js"></script>
     </html>

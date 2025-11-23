@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../head/header.php';
 ?>
 <div class="col-10 col-md-10 col-lg-10 p-4">
-    <div class="container" style="margin-left: 190px;">
+    <div class="container" style="margin-left: 190px; margin-top: 40px">
         <h1 class="text-center">Mis Proveedores</h1>
         <div class="row">
             <div class="col-2 offset-10">

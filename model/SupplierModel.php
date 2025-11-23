@@ -5,7 +5,7 @@ class SupplierModel
 
     private $PDO;
 
-    //Constructor to initialize the database connection
+    //Constructor para inicializar la conexión a la base de datos
     public function __construct()
     {
         require_once(__DIR__ . '/../config/db.php');
@@ -14,7 +14,7 @@ class SupplierModel
     }
 
     //Method to get all suppliers
-    public function get_suppliers()
+    public function getSuppliers()
     {
         $statement = $this->PDO->prepare("SELECT * FROM inventa_system.proveedor");
         try {

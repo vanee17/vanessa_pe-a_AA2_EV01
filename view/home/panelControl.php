@@ -3,7 +3,7 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/header.php");
 ?>
 <?php if (!empty($_SESSION['user'])): ?>
     <main class="col-10 col-md-10 col-lg-10 p-4">
-        <div class="container">
+        <div class="container" style="margin-top: 40px;">
             <div class="row">
                 <div class="col-sm p_grid">
                     <a href="">
@@ -38,7 +38,7 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/header.php");
             </div>
             <div class="row">
                 <div class="col-sm p_grid">
-                    <a href="">
+                    <a href="/vanessa_peña_AA2_EV01/view/home/products.php" >
                         <div class="card" style="width: 18rem;">
                             <img src="/vanessa_peña_AA2_EV01/asset/img/inventory.png" class="img_pc" alt="...">
                             <div class="d-flex justify-content-center">
@@ -48,7 +48,7 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/header.php");
                     </a>
                 </div>
                 <div class="col-sm p_grid">
-                    <a href="" class="">
+                    <a href="/vanessa_peña_AA2_EV01/view/home/suppliers.php" class="">
                         <div class="card" style="width: 18rem;">
                             <img src="/vanessa_peña_AA2_EV01/asset/img/supplier.png" class="img_pc" alt="...">
                             <div class="d-flex justify-content-center">
