@@ -23,6 +23,13 @@ El sistema INVENTA_SYSTEM es una aplicación web desarrollada en PHP que proporc
     - Gestión de contactos directos
     - Interfaz interactiva con botones de edición y eliminación
 
+2.3. Módulo de Productos
+    - Listado de productos con tabla dinámica
+    - Funciones CRUD completas (Crear, Leer, Actualizar, Eliminar)
+    - Gestión de información empresarial (Producto, proveedor, precios)
+    - Gestión de contactos directos
+    - Interfaz interactiva con botones de edición y eliminación
+
 3. REQUISITOS DEL SISTEMA
 ------------------------
 - PHP 7.4 o superior
