@@ -44,9 +44,16 @@ class ProductController
 
         echo json_encode($salida);
     }
+
     public function drawNamesSuppliers()
     {
         $resultado = $this->supplierModel->getSuppliers();
+        echo json_encode($resultado);
+    }
+
+    public function drawNamesProducts()
+    {
+        $resultado = $this->productModel->getProductsDraw();
         echo json_encode($resultado);
     }
 
@@ -117,6 +124,11 @@ if (isset($_GET["f"])) {
         case "drawnamessuppliers":
             $ProductController->drawNamesSuppliers();
             break;
+
+        case "drawnamesproducts":
+            $ProductController->drawNamesProducts();
+            break;
+
         default:
             break;
     }

@@ -13,6 +13,17 @@ class ProductModel
         $this->PDO = $pdo->connection();
     }
 
+    public function getProductsDraw()
+    {
+        $statement = $this->PDO->prepare("SELECT * FROM inventa_system.producto");
+        try {
+            $statement->execute();
+            return $statement->fetchAll();
+        } catch (PDOException $e) {
+            return false;
+        }
+    }
+
     public function getProducts()
     {
         $statement = $this->PDO->prepare("SELECT prd.*, prv.nombre_empresa FROM inventa_system.producto as prd LEFT JOIN inventa_system.proveedor as prv ON prv.id = prd.proveedor_id");

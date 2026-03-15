@@ -16,7 +16,7 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/header.php");
                     </a>
                 </div>
                 <div class="col-sm p_grid">
-                    <a href="" class="">
+                    <a href="/vanessa_peña_AA2_EV01/view/home/customers.php" class="">
                         <div class="card" style="width: 18rem;">
                             <img src="/vanessa_peña_AA2_EV01/asset/img/costumer.png" class="img_pc" alt="...">
                             <div class="d-flex justify-content-center">
@@ -26,7 +26,7 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/header.php");
                     </a>
                 </div>
                 <div class="col-sm p_grid">
-                    <a href="" class="">
+                    <a href="/vanessa_peña_AA2_EV01/view/home/sales.php" class="">
                         <div class="card" style="width: 18rem;">
                             <img src="/vanessa_peña_AA2_EV01/asset/img/growth.png" class="img_pc" alt="...">
                             <div class="d-flex justify-content-center">

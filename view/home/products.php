@@ -65,18 +65,18 @@ require_once __DIR__ . '/../head/header.php';
                             <br>
 
                             <label class="opt_form">Cantidad</label>
-                            <input type="text" name="cantidad" id="cantidad" class="form-control form-prov">
+                            <input type="number" name="cantidad" id="cantidad" class="form-control form-prov">
                             <br>
                             <label class="opt_form">Unidad</label>
                             <input type="text" name="unidad" id="unidad" class="form-control form-prov">
                             <br>
 
                             <label class="opt_form">Valor Ingreso</label>
-                            <input type="text" name="valorIngreso" id="valorIngreso" class="form-control form-prov">
+                            <input type="number" name="valorIngreso" id="valorIngreso" class="form-control form-prov">
                             <br>
 
                             <label class="opt_form">Valor Venta</label>
-                            <input type="text" name="valorVenta" id="valorVenta" class="form-control form-prov">
+                            <input type="number" name="valorVenta" id="valorVenta" class="form-control form-prov">
                             <br>
                         </div>
                         <div class="modal-footer color1">

@@ -30,7 +30,7 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/head.php");
                             <span><i class="bi bi-cash-coin"></i> Facturación</span>
                         </a>
                         <ul class="collapse list-unstyled ps-4" id="facturacionSub">
-                            <li class="list"><a class="item_nav" href="#">Caja</a></li>
+                            <li class="list"><a class="item_nav" href="/vanessa_peña_AA2_EV01/view/home/cashRegister.php">Caja</a></li>
                         </ul>
                     </li>
                     <li class="nav-item list">
@@ -38,7 +38,7 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/head.php");
                             <span><i class="bi bi-activity"></i> Movimientos</span>
                         </a>
                         <ul class="collapse list-unstyled ps-4" id="movimientosSub">
-                            <li class="list"><a class="item_nav" href="#">Ventas</a></li>
+                            <li class="list"><a class="item_nav" href="/vanessa_peña_AA2_EV01/view/home/sales.php">Ventas</a></li>
                         </ul>
                     </li>
                     <li class="nav-item list">
@@ -48,7 +48,7 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/head.php");
                         <ul class="collapse list-unstyled ps-4" id="inventarioSub">
                             <li class="list"><a class="item_nav" href="/vanessa_peña_AA2_EV01/view/home/products.php">Productos</a></li>
                             <li class="list"><a class="item_nav" href="/vanessa_peña_AA2_EV01/view/home/suppliers.php">Proveedores</a></li>
-                            <li class="list"><a class="item_nav" href="#">Clientes</a></li>
+                            <li class="list"><a class="item_nav" href="/vanessa_peña_AA2_EV01/view/home/customers.php">Clientes</a></li>
                         </ul>
                     </li>
                     <li class="nav-item list">

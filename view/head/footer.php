@@ -12,4 +12,6 @@
         <script src="/vanessa_peña_AA2_EV01/asset/js/main.js"></script>
         <script src="/vanessa_peña_AA2_EV01/asset/js/supplier.js"></script>
         <script src="/vanessa_peña_AA2_EV01/asset/js/product.js"></script>
+        <script src="/vanessa_peña_AA2_EV01/asset/js/customer.js"></script>
+        <script src="/vanessa_peña_AA2_EV01/asset/js/cashRegister.js"></script>
     </html>
