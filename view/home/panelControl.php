@@ -6,7 +6,7 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/header.php");
         <div class="container" style="margin-top: 40px;">
             <div class="row">
                 <div class="col-sm p_grid">
-                    <a href="">
+                    <a href="/vanessa_peña_AA2_EV01/view/home/cashRegister.php">
                         <div class="card" style="width: 18rem;">
                             <img src="/vanessa_peña_AA2_EV01/asset/img/receipt.png" class="img_pc" alt="...">
                             <div class="d-flex justify-content-center">

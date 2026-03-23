@@ -60,7 +60,7 @@ require_once("c://laragon/www/vanessa_peña_AA2_EV01/view/head/head.php");
                         </a>
                         <ul class="collapse list-unstyled ps-4" id="adminSub">
                             <li class="list"><a class="item_nav" href="#">Permisos</a></li>
-                            <li class="list"><a class="item_nav" href="#">Usuarios</a></li>
+                            <li class="list"><a class="item_nav" href="/vanessa_peña_AA2_EV01/view/home/users.php">Usuarios</a></li>
                             <li class="list"><a class="item_nav" href="#">Notificaciones</a></li>
                         </ul>
                     </li>
